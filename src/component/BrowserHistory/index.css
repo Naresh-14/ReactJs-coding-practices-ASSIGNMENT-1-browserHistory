@@ -1,0 +1,64 @@
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .item-container {
+    flex-direction: row;
+  }
+  .social-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .social-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+.time {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #64748b;
+  margin-right: 10px;
+}
+.social-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.title {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #475569;
+  margin-right: 10px;
+}
+.domain {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #64748b;
+  margin-top: 20px;
+}
+.browser-delete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-icon {
+  width: 30px;
+  height: 30px;
+}
